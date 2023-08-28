@@ -1792,4 +1792,294 @@ TRANSLATION_LANGUAGES = {
             'water heater': 'Wasserkocher',
         },
     },
+    
+    'es': {
+        'off': 'Apagado',
+        'idle': 'Inactivo',
+        'busy': 'Ocupado',
+        'pause': 'Pausado',
+        'fault': 'Fallo',
+
+        '_globals': {
+            'mode': 'Modos',
+            'switch status': 'Estado del interruptor',
+            'battery level': 'Nivel de batería',
+            'target temperature': 'Temperatura objetivo',
+            'temperature': 'Temperatura',
+            'relative humidity': 'Humedad relativa',
+            'illumination': 'Iluminación',
+            'indicator light': 'Luz indicadora',
+            'physical control locked': 'control físico bloqueado',
+        },
+
+        'fan_level': {
+            'auto': 'auto',
+            # 'low': 'niedrig',
+            # 'medium': 'medium',
+            # 'middle': 'medium',
+            # 'high': 'hoch',
+            'quiet': 'Tranquilo',
+            'turbo': 'Turbo',
+            'level1': 'Nivel 1',
+            'level2': 'Nivel 2',
+            'level3': 'Nivel 3',
+            'level4': 'Nivel 4',
+            'level5': 'Nivel 5',
+            'level6': 'Nivel 6',
+            'level7': 'Nivel 7',
+        },
+
+        'mode': {
+            'auto': 'Auto',
+            'basic': 'Basico',
+            'low': 'Bajo',
+            'medium': 'Medio',
+            'high': 'Alto',
+            'sleep': 'Dormir',
+            'smart': 'Inteligente',
+            'favorite': 'Favorito',
+        },
+
+        'air_conditioner': {
+            'air conditioner': 'Aire acondicionado',
+        },
+
+        'air_conditioner.mode': {
+            'cool': 'Frio',
+            'dry': 'Seco',
+            'fan': 'Ventilador',
+            'heat': 'Calor',
+        },
+
+        'air_fresh.mode': {
+            'auto': 'Auto',
+            'interval': 'Intervalo',
+            'smart': 'Inteligente',
+            'silent': 'Silencioso',
+            'strong': 'Fuerte',
+            'none': 'Ninguno',
+            'sleep': 'Dormir',
+            'favorite': 'Favorito',
+        },
+
+        'battery': {
+            'battery battery level': 'Nivel de batería',
+            'battery charging state': 'Estado de carga de la batería',
+        },
+
+        'door_state': {
+            'open': 'Abierto',
+            'close': 'Cerrado',
+            'close_timeout': 'tiempo de espera no cerrado',
+            'knock': 'Llamada',
+            'breaking': 'Roto',
+            'stuck': 'Puerta atascada',
+        },
+
+        'fan.mode': {
+            'basic': 'Basico',
+            'basic wind': 'Viento basico',
+            'straight wind': 'Viento Fuerte',
+            'natural wind': 'Viento natural',
+            'energy saving': 'Ahorro de energía',
+            'none': 'Nada',
+            'baby': 'Bebé',
+            'smart': 'Inteligente',
+            'sleep': 'Dormir',
+            'strong': 'Fuerte',
+            'circular wind': 'Viento circular',
+        },
+
+        'ir_aircondition_control': {
+            'ir aircondition control': 'Control de clima por infrarrojos',
+            'mode for ir': 'modo infrarrojo',
+            'temperature for ir': 'temperatura infrarroja',
+            'turn on': 'Encender',
+            'turn off': 'Apagar',
+            'fan speed down': 'Bajar velocidad ventilador',
+            'fan speed up': 'Subir velocidad ventilador',
+            'temperature down': 'Bajar temperaura',
+            'temperature up': 'Subir temperatura',
+        },
+        'ir_aircondition_control.ir_mode': {
+            'auto': 'Auto',
+            'cool': 'Frío',
+            'dry': 'Seco',
+            'fan': 'Ventilador',
+            'heat': 'Calor',
+        },
+
+        'light': {
+            'light': 'Luz',
+        },
+        'light.mode': {
+            'day': 'Modo día',
+            'night': 'Modo noche',
+            'color': 'Modo color',
+            'warmth': 'Modo cálido',
+            'tv': 'Modo TV',
+            'reading': 'Modo Lectura',
+            'computer': 'Modo computadora',
+            'hospitality': 'Modo visita',
+            'entertainment': 'Modo entretenimiento',
+            'lighting': 'Encendiendo',
+            'night light': 'Luz de noche',
+        },
+
+        'lock_method': {
+            'bluetooth': 'Bluetooth',
+            'password': 'Contraseña',
+            'biological': 'Biológico',
+            'key': 'Llave',
+            'turntable': 'Placa giratoria',
+            'nfc': 'NFC',
+            'one_time_password': 'Contraseña de un solo uso',
+            'two_step_verification': 'Autenticación de dos factores',
+            'coercion': 'Forzado',
+            'homekit': 'Homekit',
+            'manual': 'Manual',
+            'automatic': 'Automático',
+        },
+        'lock_action': {
+            'outside_unlock': 'Desbloquear desde el exterior',
+            'lock': 'Bloqueado',
+            'anti_lock_on': 'Antibloqueo activado',
+            'anti_lock_off': 'Antibloqueo desactivado',
+            'inside_unlock': 'Desbloquear desde el interior',
+            'lock_inside': 'Cerrar desde el interior',
+            'child_lock_on': 'Bloqueo infantil activado',
+            'child_lock_off': 'Bloqueo infantil desactivado',
+            'lock_outside': 'Cerrar desde el exterior',
+        },
+
+        'magnet_sensor': {
+            'magnet sensor': 'Contacto de puerta y ventana',
+        },
+
+        'motion_sensor': {
+            'motion sensor': 'Detección de movimiento',
+            'motion sensor illumination': 'Intensidad de luz',
+        },
+
+        'physical_control_locked': {
+            'physical control locked': 'Control físico bloqueado',
+        },
+
+        'play_control': {
+            'play control': 'Contol de reproducción',
+            'keycodes': 'Códigos clave',
+        },
+
+        'power_consumption': {
+            'power consumption': 'Energía consumida',
+            'power consumption electric power': 'Consumo de energía',
+            'power consumption electric current': 'Consumo actual de energía',
+            'power consumption electric voltage': 'Voltaje',
+        },
+
+        'ptc_bath_heater': {
+            'ptc bath heater': 'PTC Calentador de baño',
+        },
+        'ptc_bath_heater.mode': {
+            'fan': 'Ventilador',
+            'heat': 'Calor',
+            'ventilate': 'Airear',
+            'dry': 'Seco',
+            'defog': 'Desempañar',
+            'quick heat': 'Calentar rápido',
+            'quick defog': 'Desempañar rápido',
+        },
+
+        'speaker': {
+            'speaker': 'Altavoz',
+            'speaker volume': 'Volumen',
+        },
+
+        'sweep.suction_state': {
+            'medium': 'Medio',
+            'silent': 'Silencioso',
+            'slient': 'Tranquilo',
+            'standard': 'Estándar',
+            'turbo': 'Turbo',
+        },
+
+        'television': {
+            'input control': 'Control de entrada',
+            'tv input control': 'Control de entrada TV',
+        },
+
+        'temperature_humidity_sensor': {
+            'temperature humidity sensor temperature': 'Temperatura',
+            'temperature humidity sensor relative humidity': 'Humedad relativa',
+            'temperature humidity sensor atmospheric pressure': 'Presión atmosférica',
+        },
+
+        'vacuum': {
+            'robot cleaner': 'Robot aspirador',
+            'robot cleaner status': 'Estado robot aspirador,
+        },
+
+        'vacuum.mode': {
+            'basic': 'Basico',
+            'silent': 'silencioso',
+            'standard': 'Estándar',
+            'strong': 'Fuerte',
+            'turbo': 'Turbo',
+            'full speed': 'Máxima velocidad',
+        },
+
+        'washer': {
+            'drying level': 'Nivel de sequedad',
+            'rinsh times': 'Tiempo de lavado',
+            'spin speed': 'Velocidad de rotación',
+            'target water level': 'Nivel objetivo de agua',
+        },
+        'washer.mode': {
+            'baby care': 'Cuidado del bebé',
+            'boiling': 'Hirviendo',
+            'color protection': 'Protección del color',
+            'cotton': 'Algodón',
+            'daily wash': 'Lavado diario',
+            'delicate wash': 'Lavado delicado',
+            'down coat': 'Plumón',
+            'drum clean': 'Limpieza del tambor',
+            'drum dry': 'Tambor seco',
+            'dry air wash': 'Lavado con aire seco',
+            'dry timing': 'Ritmo de secado',
+            'dry': 'Secado',
+            'gold wash': 'lavado de oro',
+            'heavy wash': 'lavado intenso',
+            'intensive': 'Intensivo',
+            'jacket': 'Cahqueta',
+            'jeans': 'Vaqueros',
+            'mite removal': 'Eliminación de ácaros',
+            'quick wash dry': 'Lavado rápido y secado',
+            'quick wash': 'Lavado rápido',
+            'rinse spin': 'Modo enjuague',
+            'rinse': 'Enjuagar',
+            'shirt': 'Camisa',
+            'silk': 'Seda',
+            'soak wash': 'Lavar en remojo',
+            'sock': 'Calcetín',
+            'spin': 'Girar',
+            'sportswear': 'Ropa de deporte',
+            'super quick': 'Super rápido',
+            'synthetic': 'Sintético',
+            'towel': 'Toalla',
+            'underwear': 'Ropa interior',
+            'user define': 'Definir usuario',
+            'wash dry': 'Lavar en seco',
+            'wool': 'Lana',
+        },
+        'washer.drying_level': {
+            'moist': 'Humedo',
+            'normal': 'Normal',
+            'extra': 'Extra',
+            'none': 'Ninguno',
+        },
+
+        'water_heater': {
+            'water heater': 'Calentador de agua',
+        },
+    },
 }
